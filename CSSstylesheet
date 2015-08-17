@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*user defined css*/
+body{
+	background-image:url('../images/body_bg.jpg');	
+	font-family: 'Open Sans', sans-serif;
+}
+.utilities{
+	position:absolute;
+	left:0px;
+	top:150px;
+}
+.clearall{
+	clear:both;
+}
+.nomargin-right{
+	margin-right:0px !important;
+}
+.noborder-bottom{
+	border-bottom:0px !important;
+}
+.header{
+	width:100%;
+	background-color:#cac8c8;
+}
+.header-content{
+	width:1180px;
+	height:36px;
+	margin:0px auto;
+}
+.header-mainmsg{
+	float:right;
+	line-height:35px;	
+}
+.header_msg1{
+	color:#000;
+	font-size:15px;
+	margin-right:10px;
+}
+.header_msg2{
+	color:#fe5214;
+	font-size:15px;
+}
+.main-wrapper{
+	width:1180px;
+	margin:0px auto;
+}
+.content_head{
+
+}
+.main_logo{
+	float:left;
+	margin-top:43px;
+	margin-bottom:62px;
+}
+.search_box{
+	float:right;
+	margin-top:83px;
+	margin-right:40px;
+}
+.searchbox_entry{
+	width:225px;
+	height:29px;
+	border:0px;
+	padding: 0px !important;
+	font-size:16px;
+	float:left;
+}
+.search_box img{
+	margin:0px;
+	vertical-align: bottom;
+}
+.navigation_bg{
+	background-color:#5c5c5c;
+	padding-bottom:6px;
+}
+.navigation{
+	background-image:url('../images/nav_bg.jpg');
+}
+.navi-menu{
+	float:left;
+}
+.navi-menu  li{
+	float:left;
+	border-right:1px solid #5c5c5c;
+}
+.navi-menu  li a{
+	color:#fff;
+	display:block;
+	line-height:60px;
+	text-decoration:none;
+	padding-left:40px;
+	padding-right:40px;
+}
+.navi-menu  li :hover{
+	background-image:url('../images/nav_bg_over.jpg');
+}
+.navi-social{
+	float:right;
+	margin-right:40px;
+	margin-top:20px;
+}
+.navi-social li{
+	float:left;
+	margin-left:10px;
+}
+.navi-social li:hover{
+	margin-top:5px;
+}	
+.slider-main,.slider-mainimg{
+	position:relative;
+}
+.slider-navigate{
+	position:absolute;
+	left:0px;
+	bottom:50px;
+	z-index:2;
+	}
+.slidenav{
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:33px;
+	padding:0px;
+}
+.slider-detail{
+	width:245px;
+	height:91px;
+	float:left;
+	background-color:#fff;
+	margin-right:40px;
+}
+
+.slider-detail:hover{
+	background-color:#474747;
+	cursor:pointer;
+}
+.slider-detail:hover .caption1 {
+	color : white;
+}
+.caption1{
+	margin-top:20px;
+	display:block;
+	text-align:center;
+	font-size:15px;
+	color:#694c4c;
+}
+.caption2{
+	margin-top:10px;
+	color:#fe5214; 
+	font-size:18px;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+}
+.content{
+	width:1180px;
+	padding-top:30px;
+	background-image:url('../images/content-bg.jpg');
+	background-repeat:repeat-x;
+	background-position:top;
+	background-color:#fafafa;
+}
+.content-left{
+	width:813px;
+	padding:0px 35px;
+	float:left;
+}
+.con-head{
+	border-bottom:1px solid #c8c8c8;
+	padding-bottom:20px;
+	margin-bottom:30px;
+}
+.head_text{
+	font-size:30px;
+	font-weight:bold;
+	color:#404040;
+}
+.dept-details{
+	width:250px;
+	float:left;
+	margin:0px 30px 30px 0;
+}
+.dept-details h3{
+	font-size:18px;
+	color:#fe5214;
+	font-weight:bold;
+	margin-bottom:8px;
+}
+.dept-details h4{
+	font-size:18px;
+	color:#404040;
+	font-weight:bold;
+	margin:5px 0px 8px 0px;
+	border-bottom:1px solid #c8c8c8;
+	padding-bottom:25px;
+}
+.dept-details h6{
+	font-size:15px;
+	font-weight:bold;
+	color:#404040;
+}
+.dept-details ul {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.dept-details ul li{
+	color:#7d7d7d;
+	font-size:13px;
+	line-height:35px;
+	padding-left:20px;
+	border-bottom:1px solid #e8e8e8;
+	background-image:url('../images/list_arrow.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.dept-btn{
+	padding:13px 15px;
+	text-decoration:none;
+	color:#fff;
+	background-color:#fe5214;
+	border-radius:3px;
+}
+.dept-btn:hover{
+	background-color:#139ee6;
+}
+.dept-image-2{
+	float:left;
+	margin:10px 15px 10px 0px;
+}
+.dept-details p{
+	line-height:22px;
+	font-size:14px;
+	color:#7d7d7d;
+	margin-bottom:20px;
+}
+.dept-link-2{
+	color:#fe5214;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	padding-right:18px;
+	background-image:url('../images/list_arrow_2.png');
+	background-repeat:no-repeat;
+	background-position:right center;
+	
+}
+.content-right{
+	width:280px;
+	float:right;
+}
+.chat_link{
+	margin-bottom:20px;
+	position:relative;
+}
+.chat-btn-pos{
+	position:absolute;
+	bottom:30px;
+	left:20px;
+}
+.chat-btn{
+	padding:10px 10px;
+	text-decoration:none;
+	color:#fff;
+	font-size:15px;
+	background-color:#fe5214;
+	border-radius:3px;
+}
+.chat-btn:hover{
+	background-color:#139ee6;
+	}
+.right_des{
+	width:203px;
+	height:143px;	
+	margin-top:20px;
+	background-color:#fe5214;
+	padding:20px;
+	border-radius:5px;
+}
+.quots_Des{
+	margin-top:10px;
+	color:#fff;
+	font-size:16px;
+	display:block;
+}
+.tweet-feeds{
+	width:243px;
+	margin-top:40px;
+}
+.tweet-feeds h5{
+	font-size:22px;
+	color:#000;
+	float:left;
+	
+}
+.tweet-navigate{
+	float:right;
+}
+.tweet-details{
+	width:243px;
+	margin-top:24px;
+	padding-top:24px;
+	border-top:1px solid #c8c8c8;
+}
+.tweet-details p{
+	background-image:url('../images/twit_small.jpg');
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding-left:40px;
+	line-height:22px;
+	font-size:14px;
+	color:#7d7d7d;
+
+}
+#footer{
+	background-color:#232222;
+	padding:35px;
+}
+.footer-dept{
+	width:250px;
+	float:left;
+	margin:0px 30px 30px 0;
+	}
+.footer-dept h4{
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+.fooeter-support{
+	color:#fe5214;
+	font-size:18px;
+	font-weight:bold;
+}
+.footer-info li{
+	color:#7d7d7d;
+	font-size:14px;
+	line-height:22px;
+}
+.footer-mail{
+	color:#7d7d7d;
+	font-size:14px;
+}
+.footer-navi-social{
+	
+}
+.footer-navi-social li{
+	float:left;
+	margin-right:10px;
+	
+}
+.footer-bottom{
+	margin-top:25px;
+	padding-top:15px;
+	border-top:1px solid #4f4e4e;
+}
+.footermsg-left{
+	color:#7d7d7d;
+	font-size:14px;
+	float:left;
+	display:block;
+}
+.footermsg-right{
+	float:right !important;
+}
